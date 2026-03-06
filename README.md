@@ -1,40 +1,91 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Portfolio Website
+
+Personal portfolio website built with Next.js, React, and Tailwind CSS.
+
+## Tech Stack
+
+- Next.js
+- React
+- Tailwind CSS
+- TypeScript
+
+## Sections
+
+- Hero
+- About
+- Skills
+- Projects
+- Experience
+- Contact
+- Footer
+
+## Project Structure
+
+```txt
+portfolio/
+├── public/
+│   └── project-images/
+├── src/
+│   ├── components/
+│   ├── data/
+│   ├── pages/
+│   └── styles/
+├── agent.md
+└── README.md
+```
 
 ## Getting Started
 
-First, run the development server:
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Build for Production
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+```bash
+npm run build
+npm run start
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+## Customize Content
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Update portfolio content in these files:
 
-## Learn More
+- `src/pages/index.tsx` for page composition and metadata
+- `src/data/skills.ts` for skill groups
+- `src/data/projects.ts` for project cards
+- `src/components/Experience.tsx` for timeline items
+- `src/components/Contact.tsx` for email, GitHub, and LinkedIn
 
-To learn more about Next.js, take a look at the following resources:
+## Assets To Add
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+Add your real files before publishing:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- `public/avatar.png`
+- `public/cv.pdf`
+- project screenshots inside `public/project-images/`
 
-## Deploy on Vercel
+## Deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Recommended deployment target: Vercel.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+Steps:
+
+1. Push the project to GitHub
+2. Import the repository into Vercel
+3. Deploy
+
+## Notes
+
+- Replace placeholder URLs such as `your-username`, `your-email@example.com`, and demo links.
+- The implementation guide is available in `agent.md`.

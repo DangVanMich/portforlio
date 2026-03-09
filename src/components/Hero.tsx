@@ -22,11 +22,16 @@ export default function Hero() {
             <a href="#projects" className="rounded-full bg-cyan-400 px-6 py-3 font-semibold text-slate-950 transition hover:bg-cyan-300">
               View Projects
             </a>
-            <a href="/cv.pdf" className="rounded-full border border-white/15 px-6 py-3 font-semibold text-white transition hover:border-cyan-400 hover:text-cyan-400">
-              Download CV
+            <a
+              href="https://drive.google.com/file/d/164bJD01fomICWHAv8IVMYLdQqhomU-I_/view?usp=drive_link"
+              target="_blank"
+              rel="noreferrer"
+              className="rounded-full border border-white/15 px-6 py-3 font-semibold text-white transition hover:border-cyan-400 hover:text-cyan-400"
+            >
+              View CV
             </a>
             <a
-              href="https://github.com/your-username"
+              href="https://github.com/DangVanMich"
               target="_blank"
               rel="noreferrer"
               className="rounded-full border border-white/15 px-6 py-3 font-semibold text-white transition hover:border-cyan-400 hover:text-cyan-400"

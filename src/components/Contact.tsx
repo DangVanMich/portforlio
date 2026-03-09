@@ -17,37 +17,28 @@ export default function Contact() {
         <div className="space-y-4 text-slate-300">
           <p>
             <span className="font-semibold text-white">Email:</span>{" "}
-            <a className="transition hover:text-cyan-400" href="mailto:your-email@example.com">
-              your-email@example.com
+            <a className="transition hover:text-cyan-400" href="mailto:michdang.300103@gmail.com">
+              michdang.300103@gmail.com
             </a>
           </p>
           <p>
             <span className="font-semibold text-white">GitHub:</span>{" "}
             <a
               className="transition hover:text-cyan-400"
-              href="https://github.com/your-username"
+              href="https://github.com/DangVanMich"
               target="_blank"
               rel="noreferrer"
             >
-              github.com/your-username
-            </a>
-          </p>
-          <p>
-            <span className="font-semibold text-white">LinkedIn:</span>{" "}
-            <a
-              className="transition hover:text-cyan-400"
-              href="https://linkedin.com/in/your-linkedin"
-              target="_blank"
-              rel="noreferrer"
-            >
-              linkedin.com/in/your-linkedin
+              github.com/DangVanMich
             </a>
           </p>
           <a
-            href="/cv.pdf"
+            href="https://drive.google.com/file/d/164bJD01fomICWHAv8IVMYLdQqhomU-I_/view?usp=drive_link"
+            target="_blank"
+            rel="noreferrer"
             className="inline-flex rounded-full bg-cyan-400 px-5 py-3 font-semibold text-slate-950 transition hover:bg-cyan-300"
           >
-            Download CV
+            View CV
           </a>
         </div>
       </div>
